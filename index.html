@@ -1,0 +1,1996 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Sistema de Gestión de Prácticas Profesionales - CUL"
+    >
+
+    <title>Gestión de Prácticas | CUL</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- =========================================================
+         BARRA SUPERIOR
+    ========================================================== -->
+
+    <div class="top-bar"></div>
+
+
+    <!-- =========================================================
+         ENCABEZADO
+    ========================================================== -->
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <a
+                class="brand"
+                href="#inicio"
+                aria-label="CUL - Inicio"
+            >
+                <img
+                    src="https://ul.edu.co/uleduco/images/logo/logo-768x355.png"
+                    alt="Logo CUL"
+                >
+            </a>
+
+
+            <nav
+                class="main-nav"
+                aria-label="Navegación principal"
+            >
+
+                <a
+                    class="nav-link active"
+                    href="#inicio"
+                >
+                    INICIO
+                </a>
+
+
+                <details class="nav-dropdown">
+
+                    <summary>
+                        CUL <span>⌄</span>
+                    </summary>
+
+                    <div class="dropdown-menu">
+
+                        <a href="#institucional">
+                            Información institucional
+                        </a>
+
+                        <a href="#contacto">
+                            Contacto
+                        </a>
+
+                    </div>
+
+                </details>
+
+
+                <details class="nav-dropdown">
+
+                    <summary>
+                        PROGRAMAS <span>⌄</span>
+                    </summary>
+
+                    <div class="dropdown-menu">
+
+                        <a href="#ofertas">
+                            Programas habilitados
+                        </a>
+
+                        <a href="#ofertas">
+                            Buscar por programa
+                        </a>
+
+                    </div>
+
+                </details>
+
+
+                <details class="nav-dropdown">
+
+                    <summary>
+                        PRÁCTICAS <span>⌄</span>
+                    </summary>
+
+                    <div class="dropdown-menu">
+
+                        <a href="#ofertas">
+                            Ofertas
+                        </a>
+
+                        <a href="#postulaciones">
+                            Postulaciones
+                        </a>
+
+                        <a href="#entrevistas">
+                            Entrevistas
+                        </a>
+
+                        <a href="#practica">
+                            Mi práctica
+                        </a>
+
+                        <a href="#documentos">
+                            Documentos
+                        </a>
+
+                    </div>
+
+                </details>
+
+
+                <a
+                    class="nav-link"
+                    href="#ofertas"
+                >
+                    OFERTAS
+                </a>
+
+
+                <a
+                    class="nav-link"
+                    href="#postulaciones"
+                >
+                    MIS POSTULACIONES
+                </a>
+
+
+                <a
+                    class="nav-link"
+                    href="#perfil"
+                >
+                    MI PERFIL
+                </a>
+
+            </nav>
+
+
+            <a
+                class="header-login"
+                href="#login"
+                id="headerLoginButton"
+            >
+                INGRESAR
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================================
+         BREADCRUMB
+    ========================================================== -->
+
+    <div class="breadcrumb-wrap">
+
+        <div class="container breadcrumb">
+
+            <span>
+                Usted está aquí:
+            </span>
+
+            <a href="#inicio">
+                Inicio
+            </a>
+
+            <span>/</span>
+
+            <span>
+                Gestión de Prácticas
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <main>
+
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <section
+            id="inicio"
+            class="hero"
+        >
+
+            <div class="container hero-grid">
+
+                <div class="hero-copy">
+
+                    <span class="eyebrow">
+                        CORPORACIÓN UNIVERSITARIA LATINOAMERICANA
+                    </span>
+
+                    <h1>
+                        Gestión de
+                        <strong>Prácticas Profesionales</strong>
+                    </h1>
+
+                    <p>
+                        Encuentra oportunidades, realiza tus postulaciones
+                        y consulta el estado de tu proceso de práctica
+                        profesional desde un solo lugar.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a
+                            href="#ofertas"
+                            class="btn btn-orange"
+                        >
+                            CONSULTAR OFERTAS
+                        </a>
+
+                        <a
+                            href="#login"
+                            class="btn btn-outline"
+                        >
+                            INGRESAR AL SISTEMA
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card">
+
+                    <div class="hero-card-icon">
+                        ✦
+                    </div>
+
+                    <h2>
+                        Tu práctica, paso a paso
+                    </h2>
+
+                    <div class="process-mini">
+
+                        <div>
+                            <span>01</span>
+                            Consulta ofertas
+                        </div>
+
+                        <div>
+                            <span>02</span>
+                            Postúlate
+                        </div>
+
+                        <div>
+                            <span>03</span>
+                            Asiste a tu entrevista
+                        </div>
+
+                        <div>
+                            <span>04</span>
+                            Inicia tu práctica
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             ACCESOS
+        ====================================================== -->
+
+        <section class="section section-white">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        SERVICIOS
+                    </span>
+
+                    <h2>
+                        ¿Qué deseas hacer?
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                </div>
+
+
+                <div class="access-grid">
+
+                    <a
+                        href="#ofertas"
+                        class="access-card"
+                    >
+
+                        <span class="access-icon">
+                            💼
+                        </span>
+
+                        <h3>
+                            Ofertas de práctica
+                        </h3>
+
+                        <p>
+                            Consulta oportunidades disponibles para tu programa.
+                        </p>
+
+                        <span class="card-arrow">
+                            Ver ofertas →
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="#postulaciones"
+                        class="access-card"
+                    >
+
+                        <span class="access-icon">
+                            📄
+                        </span>
+
+                        <h3>
+                            Mis postulaciones
+                        </h3>
+
+                        <p>
+                            Consulta el estado de las ofertas a las que te postulaste.
+                        </p>
+
+                        <span class="card-arrow">
+                            Ver postulaciones →
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="#entrevistas"
+                        class="access-card"
+                    >
+
+                        <span class="access-icon">
+                            📅
+                        </span>
+
+                        <h3>
+                            Entrevistas
+                        </h3>
+
+                        <p>
+                            Consulta fecha, modalidad y resultado de tus entrevistas.
+                        </p>
+
+                        <span class="card-arrow">
+                            Ver entrevistas →
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="#documentos"
+                        class="access-card"
+                    >
+
+                        <span class="access-icon">
+                            📁
+                        </span>
+
+                        <h3>
+                            Documentos
+                        </h3>
+
+                        <p>
+                            Consulta y gestiona los documentos asociados a tu práctica.
+                        </p>
+
+                        <span class="card-arrow">
+                            Ver documentos →
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             OFERTAS
+        ====================================================== -->
+
+        <section
+            id="ofertas"
+            class="section section-gray"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        OPORTUNIDADES
+                    </span>
+
+                    <h2>
+                        Ofertas de práctica
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                    <p>
+                        Busca oportunidades de acuerdo con tu programa académico.
+                    </p>
+
+                </div>
+
+
+                <!-- BUSCADOR -->
+
+                <div class="search-panel">
+
+                    <div class="field">
+
+                        <label for="searchOferta">
+                            Buscar oferta
+                        </label>
+
+                        <input
+                            id="searchOferta"
+                            type="search"
+                            placeholder="Cargo, empresa o palabra clave"
+                        >
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="filterProgram">
+                            Programa
+                        </label>
+
+                        <select id="filterProgram">
+
+                            <option value="">
+                                Todos los programas
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="filterModalidad">
+                            Modalidad
+                        </label>
+
+                        <select id="filterModalidad">
+
+                            <option value="">
+                                Todas
+                            </option>
+
+                            <option value="Presencial">
+                                Presencial
+                            </option>
+
+                            <option value="Híbrida">
+                                Híbrida
+                            </option>
+
+                            <option value="Remota">
+                                Remota
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button
+                        id="btnBuscarOfertas"
+                        class="btn btn-orange search-btn"
+                        type="button"
+                    >
+                        BUSCAR
+                    </button>
+
+                </div>
+
+
+                <!-- CONTADOR -->
+
+                <div
+                    id="offersCount"
+                    class="results-count"
+                >
+                    Cargando ofertas...
+                </div>
+
+
+                <!-- OFERTAS DINÁMICAS -->
+
+                <div
+                    id="offersContainer"
+                    class="offers-grid"
+                >
+
+                    <div class="loading-message">
+                        Cargando ofertas...
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             DETALLE DE OFERTA
+        ====================================================== -->
+
+        <section
+            id="detalle-oferta"
+            class="section section-white"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        DETALLE
+                    </span>
+
+                    <h2 id="detalleOfertaTitulo">
+                        Selecciona una oferta
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                </div>
+
+
+                <div class="detail-layout">
+
+                    <article class="detail-main">
+
+                        <div class="detail-header">
+
+                            <div>
+
+                                <span
+                                    id="detalleOfertaEstado"
+                                    class="status status-open"
+                                >
+                                    —
+                                </span>
+
+                                <h3 id="detalleOfertaEmpresa">
+                                    Selecciona una oferta
+                                </h3>
+
+                                <p id="detalleOfertaPrograma">
+                                    —
+                                </p>
+
+                            </div>
+
+
+                            <button
+                                id="btnPostularDetalle"
+                                class="btn btn-orange"
+                                type="button"
+                                disabled
+                            >
+                                POSTULARME
+                            </button>
+
+                        </div>
+
+
+                        <h4>
+                            Descripción
+                        </h4>
+
+                        <p id="detalleOfertaDescripcion">
+                            Selecciona una oferta para consultar su información.
+                        </p>
+
+
+                        <h4>
+                            Información de la oferta
+                        </h4>
+
+                        <div
+                            id="detalleOfertaInfo"
+                            class="info-list"
+                        >
+
+                            <div>
+                                <strong>Cargo:</strong>
+                                <span id="detalleCargo">—</span>
+                            </div>
+
+                            <div>
+                                <strong>Programa:</strong>
+                                <span id="detallePrograma">—</span>
+                            </div>
+
+                            <div>
+                                <strong>Modalidad:</strong>
+                                <span id="detalleModalidad">—</span>
+                            </div>
+
+                            <div>
+                                <strong>Fecha de publicación:</strong>
+                                <span id="detalleFechaPublicacion">—</span>
+                            </div>
+
+                            <div>
+                                <strong>Fecha de cierre:</strong>
+                                <span id="detalleFechaCierre">—</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <aside class="detail-side">
+
+                        <h3>
+                            Empresa
+                        </h3>
+
+                        <p>
+                            <strong id="detalleEmpresaNombre">
+                                —
+                            </strong>
+                        </p>
+
+                        <p>
+                            Sector:
+                            <span id="detalleEmpresaSector">
+                                —
+                            </span>
+                        </p>
+
+                        <p>
+                            Ciudad:
+                            <span id="detalleEmpresaCiudad">
+                                —
+                            </span>
+                        </p>
+
+                        <p>
+                            Estado:
+                            <span id="detalleEmpresaEstado">
+                                —
+                            </span>
+                        </p>
+
+                    </aside>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             FORMULARIO DE POSTULACIÓN
+        ====================================================== -->
+
+        <section
+            id="postulacion-form"
+            class="section section-gray"
+        >
+
+            <div class="container narrow">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        POSTULACIÓN
+                    </span>
+
+                    <h2>
+                        Postularme a una oferta
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                    <p>
+                        Verifica tu información antes de enviar la postulación.
+                    </p>
+
+                </div>
+
+
+                <form
+                    id="postulacionForm"
+                    class="form-card"
+                >
+
+                    <div class="form-banner">
+
+                        <strong id="postulacionOfertaTitulo">
+                            Selecciona una oferta
+                        </strong>
+
+                        <span id="postulacionEmpresa">
+                            —
+                        </span>
+
+                    </div>
+
+
+                    <input
+                        type="hidden"
+                        id="postulacionOfertaId"
+                    >
+
+
+                    <div class="form-grid">
+
+                        <div class="field">
+
+                            <label for="tipoDocumento">
+                                Tipo de documento
+                            </label>
+
+                            <select
+                                id="tipoDocumento"
+                                required
+                            >
+
+                                <option value="">
+                                    Selecciona
+                                </option>
+
+                                <option value="CC">
+                                    CC
+                                </option>
+
+                                <option value="TI">
+                                    TI
+                                </option>
+
+                                <option value="CE">
+                                    CE
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="numeroDocumento">
+                                Número de documento
+                            </label>
+
+                            <input
+                                id="numeroDocumento"
+                                type="text"
+                                placeholder="Ej. 1000123456"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="nombres">
+                                Nombres
+                            </label>
+
+                            <input
+                                id="nombres"
+                                type="text"
+                                placeholder="Nombres"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="apellidos">
+                                Apellidos
+                            </label>
+
+                            <input
+                                id="apellidos"
+                                type="text"
+                                placeholder="Apellidos"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="correo">
+                                Correo
+                            </label>
+
+                            <input
+                                id="correo"
+                                type="email"
+                                placeholder="correo@ejemplo.com"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="telefono">
+                                Teléfono
+                            </label>
+
+                            <input
+                                id="telefono"
+                                type="tel"
+                                placeholder="300 000 0000"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="programa">
+                                Programa académico
+                            </label>
+
+                            <select
+                                id="programa"
+                                required
+                            >
+
+                                <option value="">
+                                    Cargando programas...
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="semestre">
+                                Semestre
+                            </label>
+
+                            <input
+                                id="semestre"
+                                type="number"
+                                min="1"
+                                max="20"
+                                placeholder="9"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="field full">
+
+                            <label for="observaciones">
+                                Observaciones
+                            </label>
+
+                            <textarea
+                                id="observaciones"
+                                rows="5"
+                                placeholder="Agrega información adicional para tu postulación..."
+                            ></textarea>
+
+                        </div>
+
+                    </div>
+
+
+                    <label class="check-row">
+
+                        <input
+                            id="autorizacionPostulacion"
+                            type="checkbox"
+                            required
+                        >
+
+                        <span>
+                            Declaro que la información suministrada es correcta
+                            y autorizo su uso para el proceso de práctica.
+                        </span>
+
+                    </label>
+
+
+                    <div class="form-actions">
+
+                        <button
+                            class="btn btn-outline"
+                            type="reset"
+                        >
+                            CANCELAR
+                        </button>
+
+                        <button
+                            id="btnEnviarPostulacion"
+                            class="btn btn-orange"
+                            type="submit"
+                        >
+                            ENVIAR POSTULACIÓN
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             MIS POSTULACIONES
+        ====================================================== -->
+
+        <section
+            id="postulaciones"
+            class="section section-white"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        MI PROCESO
+                    </span>
+
+                    <h2>
+                        Mis postulaciones
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                </div>
+
+
+                <div class="table-card">
+
+                    <div class="table-responsive">
+
+                        <table>
+
+                            <thead>
+
+                                <tr>
+                                    <th>Oferta</th>
+                                    <th>Empresa</th>
+                                    <th>Programa</th>
+                                    <th>Fecha</th>
+                                    <th>Estado</th>
+                                    <th>Acción</th>
+                                </tr>
+
+                            </thead>
+
+
+                            <tbody id="postulacionesContainer">
+
+                                <tr>
+
+                                    <td
+                                        colspan="6"
+                                        class="empty-table"
+                                    >
+                                        Cargando postulaciones...
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             ENTREVISTAS
+        ====================================================== -->
+
+        <section
+            id="entrevistas"
+            class="section section-gray"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        SEGUIMIENTO
+                    </span>
+
+                    <h2>
+                        Entrevistas
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                </div>
+
+
+                <div
+                    id="entrevistasContainer"
+                    class="interview-grid"
+                >
+
+                    <div class="loading-message">
+                        Cargando entrevistas...
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             MI PRÁCTICA
+        ====================================================== -->
+
+        <section
+            id="practica"
+            class="section section-white"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        PRÁCTICA PROFESIONAL
+                    </span>
+
+                    <h2>
+                        Mi práctica
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                </div>
+
+
+                <div
+                    id="practiceContainer"
+                    class="practice-container"
+                >
+
+                    <div class="empty-state">
+
+                        <div class="empty-icon">
+                            📋
+                        </div>
+
+                        <h3>
+                            No tienes una práctica activa
+                        </h3>
+
+                        <p>
+                            Cuando una postulación sea aprobada,
+                            tu práctica aparecerá aquí.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             DOCUMENTOS
+        ====================================================== -->
+
+        <section
+            id="documentos"
+            class="section section-gray"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        GESTIÓN DOCUMENTAL
+                    </span>
+
+                    <h2>
+                        Documentos de mi práctica
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                </div>
+
+
+                <div class="document-toolbar">
+
+                    <p>
+                        Documentos asociados a tu práctica.
+                    </p>
+
+                    <button
+                        id="btnCargarDocumento"
+                        class="btn btn-orange"
+                        type="button"
+                    >
+                        + CARGAR DOCUMENTO
+                    </button>
+
+                </div>
+
+
+                <input
+                    id="documentFileInput"
+                    type="file"
+                    hidden
+                    accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
+                >
+
+
+                <div
+                    id="documentsContainer"
+                    class="documents-grid"
+                >
+
+                    <div class="empty-state">
+
+                        <div class="empty-icon">
+                            📁
+                        </div>
+
+                        <h3>
+                            No hay documentos
+                        </h3>
+
+                        <p>
+                            Los documentos asociados a tu práctica aparecerán aquí.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PERFIL
+        ====================================================== -->
+
+        <section
+            id="perfil"
+            class="section section-white"
+        >
+
+            <div class="container narrow">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        MI INFORMACIÓN
+                    </span>
+
+                    <h2>
+                        Perfil del estudiante
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                </div>
+
+
+                <form
+                    id="perfilForm"
+                    class="form-card"
+                >
+
+                    <div class="profile-heading">
+
+                        <div
+                            id="profileAvatar"
+                            class="avatar"
+                        >
+                            --
+                        </div>
+
+                        <div>
+
+                            <h3 id="profileName">
+                                Usuario
+                            </h3>
+
+                            <p id="profileStatus">
+                                Cargando...
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-grid">
+
+                        <div class="field">
+
+                            <label for="perfilTipoDocumento">
+                                Tipo de documento
+                            </label>
+
+                            <select id="perfilTipoDocumento">
+
+                                <option value="CC">
+                                    CC
+                                </option>
+
+                                <option value="TI">
+                                    TI
+                                </option>
+
+                                <option value="CE">
+                                    CE
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="perfilNumeroDocumento">
+                                Número de documento
+                            </label>
+
+                            <input
+                                id="perfilNumeroDocumento"
+                                type="text"
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="perfilNombres">
+                                Nombres
+                            </label>
+
+                            <input
+                                id="perfilNombres"
+                                type="text"
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="perfilApellidos">
+                                Apellidos
+                            </label>
+
+                            <input
+                                id="perfilApellidos"
+                                type="text"
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="perfilCorreo">
+                                Correo
+                            </label>
+
+                            <input
+                                id="perfilCorreo"
+                                type="email"
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="perfilTelefono">
+                                Teléfono
+                            </label>
+
+                            <input
+                                id="perfilTelefono"
+                                type="tel"
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="perfilPrograma">
+                                Programa
+                            </label>
+
+                            <select id="perfilPrograma">
+
+                                <option value="">
+                                    Cargando programas...
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="perfilSemestre">
+                                Semestre
+                            </label>
+
+                            <input
+                                id="perfilSemestre"
+                                type="number"
+                                min="1"
+                                max="20"
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="perfilEstado">
+                                Estado
+                            </label>
+
+                            <select id="perfilEstado">
+
+                                <option value="ACTIVO">
+                                    ACTIVO
+                                </option>
+
+                                <option value="EGRESADO">
+                                    EGRESADO
+                                </option>
+
+                                <option value="INACTIVO">
+                                    INACTIVO
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-actions">
+
+                        <button
+                            class="btn btn-orange"
+                            type="submit"
+                        >
+                            GUARDAR CAMBIOS
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             LOGIN
+        ====================================================== -->
+
+        <section
+            id="login"
+            class="section login-section"
+        >
+
+            <div class="container login-container">
+
+                <div class="login-card">
+
+                    <div class="login-logo">
+
+                        <img
+                            src="https://ul.edu.co/uleduco/images/logo/logo-768x355.png"
+                            alt="CUL"
+                        >
+
+                    </div>
+
+
+                    <span class="section-kicker">
+                        PLATAFORMA DE PRÁCTICAS
+                    </span>
+
+                    <h2>
+                        Ingreso al sistema
+                    </h2>
+
+                    <div class="blue-line center"></div>
+
+
+                    <form id="loginForm">
+
+                        <div class="field">
+
+                            <label for="loginCorreo">
+                                Correo electrónico
+                            </label>
+
+                            <input
+                                id="loginCorreo"
+                                type="email"
+                                placeholder="Ingrese su correo"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="loginPassword">
+                                Contraseña
+                            </label>
+
+                            <input
+                                id="loginPassword"
+                                type="password"
+                                placeholder="Ingrese su contraseña"
+                                autocomplete="current-password"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="field">
+
+                            <label for="rol">
+                                Tipo de usuario
+                            </label>
+
+                            <select id="rol">
+
+                                <option value="estudiante">
+                                    Estudiante
+                                </option>
+
+                                <option value="gestor">
+                                    Gestor de prácticas
+                                </option>
+
+                                <option value="empresa">
+                                    Empresa
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <button
+                            id="btnLogin"
+                            class="btn btn-orange full-btn"
+                            type="submit"
+                        >
+                            INGRESAR
+                        </button>
+
+
+                        <a
+                            href="#contacto"
+                            class="forgot"
+                        >
+                            ¿Olvidó su contraseña?
+                        </a>
+
+
+                        <div
+                            id="loginMessage"
+                            class="form-message"
+                            role="alert"
+                        ></div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PANEL GESTOR
+        ====================================================== -->
+
+        <section
+            id="gestor"
+            class="section section-gray"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        GESTIÓN ADMINISTRATIVA
+                    </span>
+
+                    <h2>
+                        Panel del gestor de prácticas
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                    <p>
+                        Vista de control para la gestión institucional de prácticas.
+                    </p>
+
+                </div>
+
+
+                <div class="dashboard-stats">
+
+                    <div class="dashboard-stat">
+
+                        <span>
+                            ESTUDIANTES
+                        </span>
+
+                        <strong id="statEstudiantes">
+                            0
+                        </strong>
+
+                        <small>
+                            Activos
+                        </small>
+
+                    </div>
+
+
+                    <div class="dashboard-stat">
+
+                        <span>
+                            OFERTAS
+                        </span>
+
+                        <strong id="statOfertas">
+                            0
+                        </strong>
+
+                        <small>
+                            Abiertas
+                        </small>
+
+                    </div>
+
+
+                    <div class="dashboard-stat">
+
+                        <span>
+                            POSTULACIONES
+                        </span>
+
+                        <strong id="statPostulaciones">
+                            0
+                        </strong>
+
+                        <small>
+                            En revisión
+                        </small>
+
+                    </div>
+
+
+                    <div class="dashboard-stat">
+
+                        <span>
+                            PRÁCTICAS
+                        </span>
+
+                        <strong id="statPracticas">
+                            0
+                        </strong>
+
+                        <small>
+                            En curso
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="admin-grid">
+
+                    <div class="admin-panel">
+
+                        <div class="panel-title">
+
+                            <h3>
+                                Postulaciones recientes
+                            </h3>
+
+                            <a href="#postulaciones">
+                                Ver todas
+                            </a>
+
+                        </div>
+
+
+                        <div
+                            id="recentApplicationsContainer"
+                            class="admin-list"
+                        >
+
+                            <div class="loading-message">
+                                Cargando...
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="admin-panel">
+
+                        <div class="panel-title">
+
+                            <h3>
+                                Acciones rápidas
+                            </h3>
+
+                        </div>
+
+
+                        <div class="quick-actions">
+
+                            <a href="#ofertas">
+                                + Nueva oferta
+                            </a>
+
+                            <a href="#entrevistas">
+                                📅 Programar entrevista
+                            </a>
+
+                            <a href="#documentos">
+                                📁 Revisar documentos
+                            </a>
+
+                            <a href="#postulaciones">
+                                📄 Revisar postulaciones
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             INSTITUCIONAL
+        ====================================================== -->
+
+        <section
+            id="institucional"
+            class="section section-white"
+        >
+
+            <div class="container narrow">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        CUL
+                    </span>
+
+                    <h2>
+                        Gestión de prácticas profesionales
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                </div>
+
+                <p class="lead">
+
+                    Este espacio permite gestionar las oportunidades de práctica,
+                    postulaciones, entrevistas, prácticas activas y documentación
+                    relacionada con el proceso académico-profesional.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CONTACTO
+        ====================================================== -->
+
+        <section
+            id="contacto"
+            class="section contact-section"
+        >
+
+            <div class="container contact-grid">
+
+                <div>
+
+                    <span class="section-kicker">
+                        ATENCIÓN
+                    </span>
+
+                    <h2>
+                        ¿Necesitas ayuda?
+                    </h2>
+
+                    <div class="blue-line"></div>
+
+                    <p>
+                        Comunícate con el área encargada de prácticas profesionales.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-box">
+
+                    <p>
+                        <strong>
+                            Gestión de Prácticas
+                        </strong>
+                    </p>
+
+                    <p>
+                        Corporación Universitaria Latinoamericana
+                    </p>
+
+                    <p>
+                        Correo institucional:
+                        prácticas@cul.edu.co
+                    </p>
+
+                    <p>
+                        Teléfono:
+                        (605) 000 0000
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <img
+                    src="https://ul.edu.co/uleduco/images/logo/logo-768x355.png"
+                    alt="CUL"
+                    class="footer-logo"
+                >
+
+                <p>
+                    Corporación Universitaria Latinoamericana
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Gestión de Prácticas
+                </h3>
+
+                <a href="#ofertas">
+                    Ofertas
+                </a>
+
+                <a href="#postulaciones">
+                    Postulaciones
+                </a>
+
+                <a href="#entrevistas">
+                    Entrevistas
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Estudiante
+                </h3>
+
+                <a href="#perfil">
+                    Mi perfil
+                </a>
+
+                <a href="#documentos">
+                    Documentos
+                </a>
+
+                <a href="#practica">
+                    Mi práctica
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Información
+                </h3>
+
+                <a href="#institucional">
+                    Institucional
+                </a>
+
+                <a href="#contacto">
+                    Contacto
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            © 2026 Corporación Universitaria Latinoamericana
+            · Gestión de Prácticas
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================================================
+         BOTONES FLOTANTES
+    ========================================================== -->
+
+    <div class="floating-actions">
+
+        <a
+            href="tel:+576050000000"
+            class="float-call"
+        >
+            ☎
+            <span>
+                Llamar
+            </span>
+        </a>
+
+
+        <a
+            href="#contacto"
+            class="float-whatsapp"
+        >
+            ◉
+            <span>
+                WhatsApp
+            </span>
+        </a>
+
+    </div>
+
+
+    <!-- =========================================================
+         SCRIPTS
+         
+         IMPORTANTE:
+         1. Supabase primero
+         2. Cliente Supabase
+         3. JavaScript principal
+    ========================================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
